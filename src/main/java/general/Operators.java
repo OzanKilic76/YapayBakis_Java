@@ -3,6 +3,9 @@ package general;
 public class Operators {
 
     public static void main(String[] args) {
+
+        // Meine Änderung am 02.06.2021
+        // Changes for alperen
         //-- Arithmetic Operators
         //-- +,-, /, *, %,
         int myOp1;
@@ -24,8 +27,13 @@ public class Operators {
 
         myOp1++; // myOp1 = myOp1 + 1;
         System.out.println("myOp1++; --> " + myOp1);
-        myOp1--; // myOp1 = myOp1 - 1;
+
+        ++myOp1; // myOp1 = myOp1 + 1;
+        System.out.println("myOp1++; --> " + myOp1);
+
+        --myOp1; // myOp1 = myOp1 - 1;
         System.out.println("myOp1--; --> " + myOp1);
+
 
         //-- Assignment
         myOp1 = 3;

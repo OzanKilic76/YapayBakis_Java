@@ -4,8 +4,6 @@ public class Operators {
 
     public static void main(String[] args) {
 
-        // Meine Änderung am 02.06.2021
-        // Changes for alperen
         //-- Arithmetic Operators
         //-- +,-, /, *, %,
         int myOp1;
